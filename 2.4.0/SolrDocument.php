@@ -12,24 +12,24 @@
  * This class represents a Solr document retrieved from a query response.
  * @link http://php.net/manual/en/class.solrinputdocument.php
  */
-final class SolrDocument implements ArrayAccess ,Iterator ,Serializable {
+final class SolrDocument implements ArrayAccess, Iterator, Serializable {
 
-	/** Sorts the fields in ascending order. */
+	/** @var int Sorts the fields in ascending order. */
 	const SORT_DEFAULT = 1 ;
 
-	/** Sorts the fields in ascending order. */
+	/** @var int Sorts the fields in ascending order. */
 	const SORT_ASC = 1 ;
 
-	/** Sorts the fields in descending order. */
+	/** @var int Sorts the fields in descending order. */
 	const SORT_DESC = 2 ;
 
-	/** Sorts the fields by name */
+	/** @var int Sorts the fields by name */
 	const SORT_FIELD_NAME = 1 ;
 
-	/** Sorts the fields by number of values. */
+	/** @var int Sorts the fields by number of values. */
 	const SORT_FIELD_VALUE_COUNT = 2 ;
 
-	/** Sorts the fields by boost value. */
+	/** @var int Sorts the fields by boost value. */
 	const SORT_FIELD_BOOST_VALUE = 4 ;
 
 	/**
