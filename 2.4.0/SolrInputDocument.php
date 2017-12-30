@@ -10,6 +10,7 @@
  * (PECL solr &gt;= 0.9.2)<br/>
  * Class SolrInputDocument<br/>
  * This class represents a Solr document that is about to be submitted to the Solr index.
+ * @link http://php.net/manual/en/class.solrinputdocument.php
  */
 final class SolrInputDocument {
 

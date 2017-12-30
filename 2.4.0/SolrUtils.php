@@ -11,6 +11,7 @@
  * Class SolrUtils<br/>
  * Contains utility methods for retrieving the current extension version and preparing query phrases.
  * Also contains method for escaping query strings and parsing XML responses.
+ * @link http://php.net/manual/en/class.solrutils.php
  */
 abstract class SolrUtils {
 

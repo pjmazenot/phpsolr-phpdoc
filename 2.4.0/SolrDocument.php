@@ -10,6 +10,7 @@
  * (PECL solr &gt;= 0.9.2)<br/>
  * Class SolrDocument<br/>
  * This class represents a Solr document retrieved from a query response.
+ * @link http://php.net/manual/en/class.solrinputdocument.php
  */
 final class SolrDocument implements ArrayAccess ,Iterator ,Serializable {
 
