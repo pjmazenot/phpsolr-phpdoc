@@ -1,9 +1,19 @@
 # PHPDOC for the PHP Solr Extension (PECL)
 
-## Disclaimer
+Compiled using the official PHP documentation. Doc and versioning improved.
 
-It's a work in progress, it should be finished in the next few days :)
+Supported PECL Solr versions:
+- 2.4.0 (Support Solr 4+)
+- Specific directories for older versions are coming soon but all functions are already included in the current files 
+(Use the versioning included in comments).
 
-## Reference
+Happy coding! :)
 
+## References
+
+http://php.net/manual/en/book.solr.php  
 https://pecl.php.net/package/solr
+
+## Contact
+
+For any request, please send a message at pj.mazenot@gmail.com
