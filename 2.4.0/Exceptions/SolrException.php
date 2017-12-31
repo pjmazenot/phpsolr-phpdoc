@@ -27,6 +27,10 @@ class SolrException extends Exception {
 	 * (PECL solr &gt;= 0.9.2)<br/>
 	 * Returns internal information where the Exception was thrown
 	 * @link http://php.net/manual/en/solrexception.getinternalinfo.php
+	 * @return array <p>
+	 * Returns an array containing internal information where the error was thrown. Used only for debugging by extension
+	 * developers.
+	 * </p>
 	 */
 	public function getInternalInfo() {}
 
