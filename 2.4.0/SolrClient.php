@@ -495,5 +495,5 @@ final class SolrClient {
 	 * </p>
 	 */
 	public function threads() {}
-	
+
 }

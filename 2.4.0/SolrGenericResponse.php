@@ -19,7 +19,7 @@ final class SolrGenericResponse extends SolrResponse {
 	 * SolrGenericResponse constructor.
 	 * @link http://php.net/manual/en/solrgenericresponse.construct.php
 	 */
-	public function __construct () {}
+	public function __construct() {}
 
 	/**
 	 * (PECL solr &gt;= 0.9.2)<br/>

@@ -19,7 +19,7 @@ final class SolrUpdateResponse extends SolrResponse {
 	 * SolrUpdateResponse constructor.
 	 * @link http://php.net/manual/en/solrupdateresponse.construct.php
 	 */
-	public function __construct () {}
+	public function __construct() {}
 
 	/**
 	 * (PECL solr &gt;= 0.9.2)<br/>

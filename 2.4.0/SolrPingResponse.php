@@ -19,7 +19,7 @@ final class SolrPingResponse extends SolrResponse {
 	 * SolrPingResponse constructor.
 	 * @link http://php.net/manual/en/solrpingresponse.construct.php
 	 */
-	public function __construct () {}
+	public function __construct() {}
 
 	/**
 	 * (PECL solr &gt;= 0.9.2)<br/>
