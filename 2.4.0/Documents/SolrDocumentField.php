@@ -14,19 +14,13 @@
  */
 final class SolrDocumentField {
 
-	/**
-	 * @var string [readonly] The name of the field.
-	 */
+	/** @var string [readonly] The name of the field. */
 	public $name;
 
-	/**
-	 * @var string [readonly] The boost value for the field
-	 */
+	/** @var string [readonly] The boost value for the field */
 	public $boost;
 
-	/**
-	 * @var string [readonly] An array of values for this field
-	 */
+	/** @var string [readonly] An array of values for this field */
 	public $values;
 
 	/**
