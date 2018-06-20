@@ -373,8 +373,8 @@ final class SolrClient {
 	 * @param string $raw_request <p>
 	 * An XML string with the raw request to the server.
 	 * </p>
-	 * @return SolrUpdateResponse <p>
-	 * Returns a SolrUpdateResponse on success and throws an exception on failure.
+	 * @return SolrQueryResponse <p>
+	 * Returns a SolrQueryResponse on success and throws an exception on failure.
 	 * </p>
 	 * @throws SolrIllegalArgumentException <p>
 	 * Throws SolrIllegalArgumentException if raw_request was an empty string.
