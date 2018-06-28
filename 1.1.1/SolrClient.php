@@ -354,8 +354,8 @@ final class SolrClient {
 	 * @param SolrParams $query <p>
 	 * A SolrParams object. It is recommended to use SolrQuery for advanced queries.
 	 * </p>
-	 * @return SolrUpdateResponse <p>
-	 * Returns a SolrUpdateResponse on success and throws an exception on failure.
+	 * @return SolrQueryResponse <p>
+	 * Returns a SolrQueryResponse on success and throws an exception on failure.
 	 * </p>
 	 * @throws SolrClientException <p>
 	 * Throws SolrClientException if the client had failed, or there was a connection issue.
